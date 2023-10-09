@@ -157,10 +157,8 @@ body {
   flex-direction: column;
   gap: 24px;
   padding: 114px 24px 114px 24px;
-  background-color: #FFFFFF;
+  background-color: #fff;
   border-top-right-radius: 4.5rem;
-
-
 }
 
 .myself {
@@ -202,19 +200,20 @@ body {
   text-align: center;
 }
 
-.language, .skill {
+.language,
+.skill {
   display: flex;
   justify-content: space-between;
   padding-right: 40px;
   margin-top: 30px;
-
 }
+
 .frameworks {
   display: flex;
   justify-content: space-between;
   padding-right: 40px;
-
 }
+
 .language-list {
   display: flex;
   padding: 12px;
@@ -274,37 +273,35 @@ body {
 }
 
 .form-section {
-   width: 375px;
-   height: 779px;
-   background-color: #6070FF;
-   background-image: url(./images/contact\ form\ shapes-mobile.svg);
-   background-repeat: no-repeat;
-   background-position: 100%;
-   border-top-left-radius: 4.5rem;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   
-
+  width: 375px;
+  height: 779px;
+  background-color: #6070ff;
+  background-image: url(./images/contact\ form\ shapes-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  border-top-left-radius: 4.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
 .contact {
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
   margin-top: 120px;
 }
+
 .pstyle {
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
   text-align: center;
-  color: #EBEBFF;
+  color: #ebebff;
   width: 327px;
   height: 137px;
-  
-
 }
 
 form input {
@@ -312,33 +309,37 @@ form input {
   height: 48px;
   padding: 0 15px;
   border-radius: 8px;
-  border: 1px solid #CFD8DC;
-  color: #172B4D;
+  border: 1px solid #cfd8dc;
+  color: #172b4d;
   font-size: 17px;
   font-weight: 400;
   margin-left: 24px;
   margin-top: 24px;
 }
-input::placeholder,textarea::placeholder {
-  color: #B3BAC5;
+
+input::placeholder,
+textarea::placeholder {
+  color: #b3bac5;
   font-weight: 300;
 }
+
 form textarea {
   width: 297px;
   height: 140px;
   padding: 15px;
   font-size: 15px;
-  color: #172B4D;
+  color: #172b4d;
   border-radius: 8px;
-  border: 1px solid #CFD8DC;
+  border: 1px solid #cfd8dc;
   margin-left: 24px;
   margin-top: 24px;
 }
+
 .form-button {
   width: 142px;
   height: 48px;
   border-radius: 8px;
-  color: #6070FF;
+  color: #6070ff;
   font-size: 17px;
   font-weight: 500;
   line-height: 24px;
