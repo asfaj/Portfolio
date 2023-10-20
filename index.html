@@ -12,10 +12,16 @@
 <body>
     <div class="header">
         <div class="logoStyle">My Logo</div>
+        <div class="navItems">
+            <div class="items">Portfolio</div>
+            <div class="items">About</div>
+            <div class="items">Contact</div>
+        </div>
         <div class="iconStyle"><img src="./images/Icon - Menu.svg" alt=""></div>
     </div>
     <div class="headline">
-        <div class="heading">I’m Alexandra.
+        <div class="headlineWrap">
+        <div class="heading">I’m Alexandra.<br>
             Glad to see you!</div>
         <div class="mainContent">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</div>
         <div class="supportingText">Let's Connect</div>
@@ -26,6 +32,15 @@
             <img src="./images/Github.svg" alt="">
             <img src="./images/V.svg" alt="">
         </div>
+        
+    </div>
+    <div class="social">
+        <img src="./images/twitter.svg" alt="">
+        <img src="./images/Linkedin.svg" alt="">
+        <img src="./images/M.svg" alt="">
+        <img src="./images/Github.svg" alt="">
+        <img src="./images/V.svg" alt="">
+    </div>
     </div>
 
     <div class="workSection">
@@ -127,47 +142,66 @@
         <div class="button2">
         <div class="resume">Get my resume</div>
     </div>
-    </div>
+
     
-    <div class="frame7">
-        <div class="language">Languages</div>
-        <div class="drop"><img src="./images/dropdown.svg" alt=""></div>
+
+    <div class="language">
+        <div>
+            <h3>Languages</h3>
+        </div>
+        <div>
+            <img src="./images/dropdown.svg" alt="">
+        </div>
     </div>
-    
+
     <div class="languageList">
         <ul>
             <div class="frame9">
-                <div class="language"><img src="./images/JS.svg" alt=""></div>
-                <div class="name">
-                    JavaScript
+                <div class="lang"><img src="./images/JS.svg">
+                    <div class="name">JavaScript</div>
+                </div>   
+            </div>
+
+            <div class="frame10">
+                <div class="lang"><img src="./images/HTML.svg">
+                    <div class="name">HTML</div>
                 </div>
             </div>
-            <div class="frame10">
-                <div class="language"><img src="./images/HTML.svg" alt=""></div>
-                <div class="name">HTML</div>
-            </div>
+
             <div class="frame11">
-                <div class="language"><img src="./images/CSS.svg" alt=""></div>
-                <div class="name">CSS</div>
+                <div class="lang"><img src="./images/CSS.svg">
+                    <div class="name">CSS</div>
+                </div>
             </div>
         </ul>
     </div>
-
-    <div class="frame7">
-        <div class="logo">Frameworks</div>
-        <div class="icon">
-            <img src="./images/sidedown.svg" alt="">
-        </div>
+    <div class="frameworks">
+        <div><h3>Frameworks</h3></div>
+        <div><img src="./images/sidedown.svg"></div>
     </div>
 
-    <div class="frame7">
-        <div class="logo">Skills</div>
-        <div class="icon">
-            <img src="./images/sidedown.svg" alt="">
-        </div>
+    <div class="skill">
+        <div><h3>Skills</h3></div>
+        <div><img src="./images/sidedown.svg"></div>
     </div>
- </div>
+    </div>
 
-
+    
+    <div class="form-section">
+        <div class="contact">Contact me</div>
+       <div class="pstyle">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. <br>
+        I’d love to help with it!</div>
+        
+    
+       <form>
+            <input type="text" name="Full-Name" placeholder="Full Name" maxlength="30" required>
+            <input type="email" name="Email" placeholder="Email Address" required>
+            <textarea name="message" id="message" placeholder="Write your message here..." maxlength="500" required></textarea> 
+            <button class="form-button" type="submit">Get in touch</button> 
+            <img src="./images/Light.svg">
+       </form>
+       
+    </div>
+    
 </body>
 </html>
