@@ -354,6 +354,7 @@ form textarea {
   margin-left: 24px;
   margin-top: 24px;
 }
+feature/desktop/header-section
 
 @media (min-width: 768px) {
   .header {
@@ -389,7 +390,12 @@ form textarea {
     font-weight: 500;
     color: #344563;
   }
+  .headline {
+      width: 90rem;
+      height: 52.875rem;
+      
 
+  }
   .headlineWrap {
     width: 57.5rem;
     height: 16.75rem;
