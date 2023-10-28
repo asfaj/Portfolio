@@ -17,11 +17,9 @@ body {
   height: 48px;
 }
 
-.navItems {
-  display: none;
-}
-
-.social {
+.navItems,
+.social,
+.socialb {
   display: none;
 }
 
@@ -103,6 +101,12 @@ body {
   flex-direction: column;
 }
 
+.desktop,
+.dtitle,
+.list {
+  display: none;
+}
+
 .title {
   font-size: 32px;
   font-weight: 700;
@@ -124,6 +128,10 @@ body {
 
 #text1 {
   color: #344563;
+}
+
+.dText {
+  display: none;
 }
 
 .text2 {
@@ -439,5 +447,214 @@ form textarea {
     justify-content: space-between;
     align-self: flex-start;
     margin-left: 16rem;
+  }
+
+  .workSection {
+    display: grid;
+    width: 90rem;
+    height: 169rem;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 7rem;
+    padding: 7rem  0;
+    background-color: rgb(230, 227, 221);
+  }
+
+  .card {
+    width: 72.25rem;
+    height: 31rem;
+    border-radius: 16px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 1.5rem;
+  }
+
+  .mobile,
+  .title,
+  .languageList {
+    display: none;
+  }
+
+  .desktop {
+    display: inline;
+    width: 34rem;
+    height: 28rem;
+  }
+
+  .dmanage {
+    margin-top: 1.5rem;
+    width: 34rem;
+    height: 28rem;
+  }
+
+  .dtitle {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+    color: #091e42;
+  }
+
+  .frame {
+    display: flex;
+    justify-content: space-between;
+    width: 18rem;
+    margin-top: 1rem;
+  }
+
+  .frame > div {
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+  }
+
+  #text1 {
+    display: none;
+  }
+
+  .dText {
+    display: block;
+    color: #344563;
+  }
+
+  .text2 {
+    color: #6b778c;
+  }
+
+  .maintext {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: #344563;
+    margin-top: 2rem;
+  }
+
+  .tag {
+    display: flex;
+    justify-content: space-between;
+    width: 4.0625rem;
+    margin-top: 1.5rem;
+  }
+
+  .button {
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    padding: 12px;
+    gap: 10px;
+    width: 7rem;
+    margin-top: 2.5rem;
+  }
+
+  .bText {
+    font-size: 1.0625rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: #396df2;
+    text-align: center;
+  }
+
+  .top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 114px 24px 114px 24px;
+    background-color: #fff;
+    border-top-right-radius: 4.5rem;
+    width: 90rem;
+    height: 30rem;
+  }
+
+  .ehalf {
+    margin-left: 9rem;
+    width: 28rem;
+    height: 20rem;
+  }
+
+  .chalf {
+    width: 42.75rem;
+    height: 22.5rem;
+  }
+
+  .form-section {
+    display: none;
+  }
+
+  .myself {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+    color: #091e42;
+  }
+
+  .prText {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: #344563;
+  }
+
+  .connect {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: #7f8cff;
+    margin-top: 1rem;
+  }
+
+  .socialb {
+    width: 10.63542rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+    margin-left: 1rem;
+  }
+
+  .button2 {
+    border: 1px solid #6070ff;
+    border-radius: 0.5rem;
+    width: 10rem;
+    margin-top: 1.5rem;
+  }
+
+  .resume {
+    font-size: 1.0625rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: #396df2;
+    text-align: center;
+  }
+
+  .language,
+  .frameworks,
+  .skill {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    margin-top: 1rem;
+  }
+
+  .list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;
+    width: 26rem;
+    height: 9rem;
+  }
+
+  .three {
+    width: 7.625rem;
+    height: 7.5rem;
+  }
+
+  .lan {
+    width: 6.125rem;
+    height: 1.5rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.25rem;
   }
 }
