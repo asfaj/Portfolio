@@ -644,7 +644,11 @@ form textarea {
     width: 7.625rem;
     height: 7.5rem;
   }
-
+  @keyframes colorChange {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: green; }
+  }
   .lan {
     width: 6.125rem;
     height: 1.5rem;
@@ -652,6 +656,9 @@ form textarea {
     font-size: 1rem;
     font-weight: 500;
     line-height: 1.25rem;
+    text-align: center;
+    font-weight: bold;
+    animation: colorChange 2s infinite alternate;
   }
 
   .form-section {
